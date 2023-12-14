@@ -83,6 +83,7 @@ namespace ConsoleApp1
                 Console.WriteLine($"Username: {list[i].Username}");
                 Console.WriteLine($"Address: {list[i].Address}");
                 Console.WriteLine($"Age: {list[i].Age}");
+                Console.WriteLine();
             }
         }
     }
