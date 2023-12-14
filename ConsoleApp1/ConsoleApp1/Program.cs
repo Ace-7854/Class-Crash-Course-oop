@@ -16,7 +16,7 @@ namespace ConsoleApp1
 
             int NumberOfPeople = IntegerValidation("Please enter the number of people you want to add"); //this function will check if the integer is valid and the parameter will be the output
 
-            for (int i = 0; i < NumberOfPeople - 1; i++) //i have taken one away from the number of people as i starts at 0 meaning 2 will be = to 3
+            for (int i = 0; i < NumberOfPeople; i++) //i have taken one away from the number of people as i starts at 0 meaning 2 will be = to 3
             {
                 list.Add(CreateNewPerson());
                 Console.Clear(); //clears the console window (optional) just keeps ui clean
